@@ -1,0 +1,164 @@
+html{
+    background-color: rgba(122, 191, 191, 5);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    min-width: 414px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.icon-tabler-tools-kitchen{
+    background-color: #eb5428;
+}
+h1, h2, h3{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-size: 40px;;
+}
+h2{
+    font-size: 30px;
+}
+#top{
+    box-shadow: 5px 5px 5px rgba(148, 148, 148, 0.5);
+    position: absolute;
+    display: flex;
+    top: 0;   
+    margin-left: 200px;
+}
+
+
+#top img{
+    position: relative;
+    max-height: 35px;
+    margin-left: -10px;
+   margin-top: 5px;
+   
+    
+}
+#top p{
+   
+     color: #eb5428;
+    
+    margin-left: 35px;
+    
+    margin-top: 30px;
+   
+}
+img{
+    max-width: 250px;
+    margin-left: 100px;
+    margin-top: -275px;
+}
+menu{
+    
+    
+    transition: max-height .2s ease-out;
+}
+menu li a:hover{
+    color: #ffffff;
+}
+
+#search{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+   
+
+}
+.icon-tabler-search{
+    color:  #ffffff;
+    background-color: black;
+    max-height: 35px;
+    align-items: baseline;
+}
+#taco{
+    font-size: 40px;
+    margin-top: 75px;
+    margin-left: 225px;
+}
+nav li{
+    list-style-type: none;
+}
+p{
+    margin-left: 400px;
+    margin-top: -200px;
+}
+#details{
+    background-color: black;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 300px;
+}
+dl{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+    background-color: black;
+    color: #ffffff;
+    padding: 35px;
+    margin-top: -50px;
+}
+#directions{
+    margin-left: 300px;
+    margin-top: -275px;
+}
+.directions li{
+    margin-left: 300px;
+}
+
+ .need{
+    position: relative;
+   width: 100%;
+    font-size: 25pt;
+    text-align: center;
+    margin-top: 100px;
+    
+    background-color: rgba(122, 191, 191, 5);
+   
+}
+#dishes{
+   position: absolute;
+    display:flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+   
+    background-color: rgba(122, 191, 191, 5);
+}   
+#dishes img{ 
+    position: relative;
+    background-color: rgba(122, 191, 191, 5);
+    width: 100%;
+    max-width: 35px;
+    max-height: 35px;
+    margin-left: -55px;
+    margin-top: -25px;
+}
+#dishes p{
+    position: relative;
+}
+footer{
+    
+}
+footer img{
+    max-width: 35px;
+    margin-top: 100px;
+}
+@media screen and (min-width:768px) {
+    body{
+        min-width: 768px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+    
+@media screen and (min-width:414px){
+   body{
+    min-width: 414px;
+    display: grid;
+    grid-template-columns: 1fr;
+   } 
+}
